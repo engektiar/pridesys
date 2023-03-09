@@ -4,6 +4,7 @@ import Header from './Components/Header/Header';
 import Navbers from './Components/Header/Navebar/Navbers';
 import Sidebar from './Components/salider/Sidebar';
 import Achievement from './Page/achievement/Achievement';
+import Industry from './Page/industry/Industry';
  
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Navbers/>
     <Sidebar/>
     <Achievement/>
+    <Industry/>
      </div>
   );
 }

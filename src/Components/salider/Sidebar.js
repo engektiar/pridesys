@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import govslider from "../../assect/salider/gov-slider.png"
-import prideBiz from "../../assect/salider/Pride-Biz.png"
-import mainslider from "../../assect/salider/Main-Slider.jpg"
-import erpslider from "../../assect/salider/Erp-Slider.png"
+import govslider from "../../assect/image/salider/Pride-Biz.png"
+import prideBiz from "../../assect/image/salider/gov-slider.png"
+import mainslider from "../../assect/image/salider/Main-Slider.jpg"
+import erpslider from "../../assect/image/salider/Pride-Biz (1).png"
 import "./salider.css";
 const Sidebar = () => {
   const [index, setIndex] = useState(0);

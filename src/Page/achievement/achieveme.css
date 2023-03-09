@@ -1,6 +1,7 @@
  .achiment{
   background-color: darkgray;
-  height: 90vh;
+  height: 100vh;
+  overflow: hidden;
 
  }
  .leftsideSalider{

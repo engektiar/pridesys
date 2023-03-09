@@ -1,0 +1,25 @@
+.industry{
+  margin-top: 100px;
+  background-color: #5757da;
+  height: 100vh;
+  overflow: hidden;
+}
+.cardmain{margin-top: 20px;}
+.industrytitle{
+  color: #ffff;
+  text-transform: capitalize;
+  text-align:  center;
+  margin-top: 50px;
+   
+}
+ .iamgeadntitle{
+   margin-left: 50px;
+ }
+.inscard{
+  height: 200px;
+  background-color: #06065f;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+padding: 20px;
+color: #fff;
+border-radius: 20px;
+}
