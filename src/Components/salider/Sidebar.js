@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-
+import govslider from "../../assect/salider/gov-slider.png"
+import prideBiz from "../../assect/salider/Pride-Biz.png"
+import mainslider from "../../assect/salider/Main-Slider.jpg"
+import erpslider from "../../assect/salider/Erp-Slider.png"
+import "./salider.css";
 const Sidebar = () => {
   const [index, setIndex] = useState(0);
 
@@ -13,8 +17,8 @@ const Sidebar = () => {
     <Carousel activeIndex={index} onSelect={handleSelect}>
     <Carousel.Item>
       <img
-        className="d-block w-100"
-        src="holder.js/800x400?text=First slide&bg=373940"
+        className="d-block w-100 saliderimage"
+        src={mainslider}
         alt="First slide"
       />
       <Carousel.Caption>
@@ -24,8 +28,8 @@ const Sidebar = () => {
     </Carousel.Item>
     <Carousel.Item>
       <img
-        className="d-block w-100"
-        src="holder.js/800x400?text=Second slide&bg=282c34"
+        className="d-block w-100 saliderimage"
+        src={prideBiz}
         alt="Second slide"
       />
 
@@ -36,8 +40,8 @@ const Sidebar = () => {
     </Carousel.Item>
     <Carousel.Item>
       <img
-        className="d-block w-100"
-        src="holder.js/800x400?text=Third slide&bg=20232a"
+        className="d-block w-100 saliderimage"
+        src={govslider}
         alt="Third slide"
       />
 
@@ -48,7 +52,23 @@ const Sidebar = () => {
         </p>
       </Carousel.Caption>
     </Carousel.Item>
-  </Carousel></div>
+    <Carousel.Item>
+      <img
+        className="d-block w-100 saliderimage"
+        src={erpslider}
+        alt="Third slide"
+      />
+
+      <Carousel.Caption>
+        <h3>Third slide label</h3>
+        <p>
+          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+        </p>
+      </Carousel.Caption>
+    </Carousel.Item>
+  </Carousel>
+  
+  </div>
   )
 }
 

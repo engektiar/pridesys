@@ -1,0 +1,58 @@
+ .achiment{
+  background-color: darkgray;
+  height: 90vh;
+
+ }
+ .leftsideSalider{
+  background-color: #fff;
+  height: auto;
+   box-shadow: 0 8px 6px -6px black;
+   padding: 25px;
+   border-radius: 2%;
+   text-align: center;
+ }
+ .saliderimge{
+  height: 300px;
+  background-size:cover;
+ }
+ .achivetitle{
+  background-color: rgb(29, 48, 70);
+  color: #fff;
+ margin: 20px auto;
+  width: 350px;
+  padding: 5px;
+ }
+ .seeMore{
+  background: yellow;
+  color: #fff;
+  padding:8px 20px;
+  width: 300px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+ }
+
+.rigttitle{
+  margin-top: 180px;
+ 
+}
+
+ .rightsidecard{
+  background-color:cadetblue;
+  height: 400px;
+  margin-left: -25px;
+  overflow: hidden;
+  border-radius: 10px;
+ }
+ .cardsection{
+  padding: 30px;
+ }
+ .card1{
+  background: #fff;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-left: -30px;
+  border-radius: 0px  10px 10px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ }
